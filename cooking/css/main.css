@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/*共通部分
+----------------------*/
+html{
+  font-size: 100%;
+}
+body{
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+}
+img{
+  max-width: 100%;
+}
+li{
+  list-style: none;
+}
+textarea{
+  vertical-align: top;
+}
+
+/*header
+--------------------*/
+.page-header{
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+}
+.wrapper{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+
+/*main
+--------------------*/
+.container{
+  text-align: center;
+  background-image: url(../images/AdobeStock_123485919.jpeg);
+  background-size: cover;
+}
+.main-bg{
+  width:100%;
+  height:40vh;
+}
+.page-title{
+  color: white;
+  margin:0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+.howto-btn{
+  text-decoration: none;
+  color:white;
+  border-style: solid;
+  border-radius: 10px;
+  font-weight: bold;
+  padding:5px 8px;
+}
+.form-text{
+  color:white;
+}
+.form-container{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+
+
+}
+.button, .clear-btn, .copy-btn{
+  border-style: none;
+  cursor:pointer;
+  background:#118BE8;
+  font-size:1rem;
+  color:#FFFFFF;
+  border-radius: 5px;
+  padding: 5px 32px;
+}
+.clear-btn{
+  background-color:#707070;
+}
+.copy-btn{
+  background-color: rgb(112,112,112, 0.5);
+  padding: 5px 20px;
+  border-radius: 20px;
+  display: block;
+  position:absolute;
+  top:10px;
+  left:70%;
+}
+ul{
+  padding: 0;
+  text-align: left;
+  font-size:12px;
+}
+.form-part{
+  margin-left: 10%;
+}
+.answer-part{
+  margin-top: 54px;
+  margin-right: 10%;
+  position: relative;
+}
+.change-num{
+  font-weight: bold;
+}
+.flash-msg{
+  position: absolute;
+  left:28%;
+  bottom:200px;
+  background-color: rgb(112,112,112, 0.7);
+  color:#FFFFFF;
+  padding: 3px 20px;
+  border-radius: 5px;
+}
+
+
+/*footer
+------------------------*/
+footer{
+  text-align: center;
+  padding: 26px 0px;
+  margin-top: 20px;
+}
+footer p{
+  font-size: 0.875rem;
+
+}
+
+/*モバイル版
+--------------------------*/
+@media(max-width: 700px){
+  .container{
+    background-image: none;
+  }
+  .main-bg{
+    height:350px;
+    background-image: url(../images/AdobeStock_123485919.jpeg);
+    background-size: cover;
+  }
+  .page-title{
+    font-size: 1.4rem;
+    width:160px;
+    margin: 0 auto;
+    padding-top: 130px;
+  }
+  .howto-btn{
+
+  }
+  .form-container{
+  display: block;
+  }
+  .form-textarea{
+    margin-bottom: 50px;
+  }
+  .form-text{
+    color: #3D3D3D;
+    margin: 0 auto;
+  }
+  .form-part{
+    margin: 50px 0 0 0;
+  }
+  .answer-part{
+    margin:0;
+  }
+  .caution{
+    padding-left: 30px;
+  }
+  .copy-btn{
+    left:62%;
+  }
+  .flash-msg{
+    bottom:90px;
+    left:33%;
+  }
+  footer{
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: #3B3B3B;
+  }
+  footer p{
+    color: #FFFFFF;
+  }
+}
