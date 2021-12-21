@@ -164,12 +164,11 @@
               </div>
               <br>
               <div class="form-textarea">
-                <textarea id="form" name="recipe" rows="15" cols="40" value="<?php echo $recipe;?>"></textarea>
-                <?php var_dump($recipe);?>
+                <textarea id="form" name="recipe" rows="15" cols="40"></textarea>
                 <ul class="caution">
-                  <li>先頭が『材料(○○人分)』となるようにしてください。</li>
-                  <li>＊括弧（）で括られた数字は計算の対象にはなりません。</li>
-                  <li>＊1～2個のように書かれている場合、左側の数字のみ計算されます。</li>
+                  <li>※先頭が『材料(○○人分)』となるようにしてください。</li>
+                  <li>※括弧（）で括られた数字は計算の対象にはなりません。</li>
+                  <li>※1～2個のように書かれている場合、左側の数字のみ計算されます。</li>
                 </ul>
                 <button type="button" value="クリア" onclick="clearTextarea()" class="clear-btn">クリア</button>
                 <button type="submit" name="button" class="button">計算する</button>
