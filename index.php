@@ -165,6 +165,7 @@
               <br>
               <div class="form-textarea">
                 <textarea id="form" name="recipe" rows="15" cols="40" value="<?php echo $recipe;?>"></textarea>
+                <?php var_dump($recipe);?>
                 <ul class="caution">
                   <li>先頭が『材料(○○人分)』となるようにしてください。</li>
                   <li>＊括弧（）で括られた数字は計算の対象にはなりません。</li>
