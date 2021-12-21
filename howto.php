@@ -11,8 +11,9 @@
       <h3 class="logo">Re-cipe</h3>
     </header>
     <main>
-      <a href="index.php"><<戻る</a>
+
       <div class="howto-container wrapper">
+        <button type="button" onclick="history.back()"><<戻る</button>
         <h2 class="howto-title">Re-cipeの使い方</h2>
         <div class="contents">
           <div class="content">
