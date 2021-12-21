@@ -13,7 +13,7 @@
     <main>
 
       <div class="howto-container wrapper">
-        <button type="button" onclick="history.back()" class="back-btn"><<戻る</button>
+        <a href="#" onclick="history.back(-1);return false;">戻る</a>
         <h2 class="howto-title">Re-cipeの使い方</h2>
         <div class="contents">
           <div class="content">
