@@ -189,7 +189,7 @@
               <div class="flash-msg" v-if="show">
                 {{message}}
               </div>
-            <button type="button" name="button" onclick ="copy()" class="copy-btn"　@click="showFlash">
+            <button type="button" name="button" onclick ="copy()" class="copy-btn" @click="showFlash">
               Copy
             </button>
           </div>
